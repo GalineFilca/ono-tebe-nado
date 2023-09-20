@@ -346,7 +346,6 @@ body {
   justify-content: center;
   align-items: flex-start;
   gap: 202px;
-  z-index: 1;
 }
 
 .title-link {
@@ -527,7 +526,7 @@ body {
 }
 
 .footer-address {
-  max-width: 240px;
+  max-width: 242px;
   max-height: 99px;
   flex-direction: column;
   align-items: flex-start;
