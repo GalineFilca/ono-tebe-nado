@@ -5,6 +5,7 @@
 }
 
 .header {
+  max-width: 1440px;
   display: inline-flex;
   padding: 0px 50px;
   align-items: center;
@@ -507,6 +508,7 @@
 }
 
 .footer {
+  max-width: 1440px;
   display: inline-flex;
   padding: 90px 50px;
   align-items: flex-start;
