@@ -116,6 +116,7 @@
   max-height: 757px;
   background-image: url("../images/cover.jpg");
   background-position: center;
+  background-size: cover;
   flex-shrink: 0;
   margin-bottom: 90px;
   position: relative;
@@ -358,7 +359,7 @@ align-self: stretch;
 .card__text_book {
   display: flex;
   max-width: 430px;
-  padding: 50px 38px;
+  padding: 50px 40px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -379,7 +380,7 @@ align-self: stretch;
 .card__text_picture {
   display: flex;
   max-width: 430px;
-  padding: 50px 38px;
+  padding: 50px 40px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
