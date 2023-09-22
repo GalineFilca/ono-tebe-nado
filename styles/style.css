@@ -15,7 +15,7 @@
 
 .header__links-list {
   display: flex;
-  width: 392px;
+  min-width: 392px;
   align-items: flex-start;
   gap: 30px;
   flex-direction: row;
@@ -54,8 +54,8 @@
 }
 
 .header__logo-image {
-  width: 148px;
-  height: 105px;
+  min-width: 148px;
+  max-height: 105px;
   flex-shrink: 0;
 }
 
@@ -73,7 +73,7 @@
 }
 
 .header-address__container {
-  width: 242px;
+  min-width: 242px;
 }
 
 .address__item_line {
@@ -112,7 +112,7 @@
 
 .cover {
   max-width: 1440px;
-  height: 757px;
+  max-height: 757px;
   background-image: url("../images/cover.jpg");
   background-position: center;
   background-size: cover;
@@ -152,7 +152,7 @@
 
 .aligned-text {
   display: flex;
-  height: 115px;
+  min-height: 115px;
   padding: 0px 1074px 0px 50px;
   align-items: center;
   color: #fff;
@@ -166,7 +166,7 @@
 
 .aligned-text_center {
   display: flex;
-  height: 100px;
+  min-height: 100px;
   padding: 0px 565px 0px 506px;
   align-items: center;
   color: #fff;
@@ -181,7 +181,7 @@
 
 .aligned-text_right {
   display: flex;
-  height: 100px;
+  min-height: 100px;
   padding: 0px 50px 0px 973px;
   justify-content: flex-end;
   align-items: center;
@@ -206,7 +206,7 @@
 .cover__description {
   display: flex;
   max-width: 1440px;
-  height: 52px;
+  min-height: 52px;
   padding: 0px 50px 0px 422px;
   justify-content: flex-end;
   align-items: flex-start;
@@ -215,7 +215,7 @@
 
 .cover__description-text {
   display: flex;
-  height: 52px;
+  min-height: 52px;
   padding: 12px 0px;
   justify-content: center;
   align-items: center;
@@ -232,7 +232,7 @@
 
 .bet-button {
   display: flex;
-  width: 257px;
+  max-width: 257px;
   padding: 13px 32px;
   justify-content: center;
   align-items: center;
@@ -243,7 +243,7 @@
 }
 
 .bet-button__title {
-  width: 193px;
+  max-height: 193px;
   flex-shrink: 0;
   color: #fff;
   text-align: center;
@@ -281,7 +281,7 @@
 .lots__card-list {
   display: flex;
   max-width: 1440px;
-  height: 450px;
+  min-height: 450px;
   padding: 0 50px;
   justify-content: center;
   align-items: flex-start;
@@ -295,8 +295,8 @@
 }
 
 .card_type_film {
-  width: 430px;
-  height: 450px;
+  min-width: 430px;
+  min-height: 450px;
   flex-shrink: 0;
   background: url("../images/card-lot-01.jpg"), lightgray 50%;
   background-repeat: no-repeat;
@@ -306,8 +306,8 @@
 }
 
 .overlay-card {
-  width: 430px;
-  height: 450px;
+  min-width: 430px;
+  min-height: 450px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   position: absolute;
@@ -316,7 +316,7 @@
 
 .card__text_film {
   display: flex;
-  width: 430px;
+  min-width: 430px;
   padding: 50px 38px;
   flex-direction: column;
   justify-content: center;
@@ -345,8 +345,8 @@
 }
 
 .card_type_book {
-  width: 430px;
-  height: 450px;
+  min-width: 430px;
+  min-height: 450px;
   flex-shrink: 0;
   background: url("../images/card-lot-02.jpg"), lightgray 50%;
   background-repeat: no-repeat;
@@ -357,7 +357,7 @@
 
 .card__text_book {
   display: flex;
-  width: 430px;
+  min-width: 430px;
   padding: 50px 40px;
   flex-direction: column;
   justify-content: center;
@@ -366,8 +366,8 @@
 }
 
 .card_type_picture {
-  width: 430px;
-  height: 450px;
+  min-width: 430px;
+  min-height: 450px;
   background: url("../images/card-lot-03.jpg"), lightgray 50%;
   flex-shrink: 0;
   background-repeat: no-repeat;
@@ -378,7 +378,7 @@
 
 .card__text_picture {
   display: flex;
-  width: 430px;
+  min-width: 430px;
   padding: 50px 40px;
   flex-direction: column;
   justify-content: center;
@@ -398,7 +398,7 @@
 
 .lots-block {
   display: flex;
-  width: 192px;
+  min-width: 192px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -420,7 +420,7 @@
 .about {
   display: flex;
   max-width: 1440px;
-  height: 488px;
+  min-height: 488px;
   padding: 0px 50px;
   justify-content: center;
   align-items: flex-start;
@@ -431,25 +431,25 @@
 
 .logo-column {
   display: flex;
-  width: 430px;
-  height: 488px;
-  padding: 1px 95px 247px 95px;
+  min-width: 430px;
+  min-height: 488px;
+  padding: 0 95px 247px 95px;
   flex-direction: column;
   align-items: center;
   flex-shrink: 0;
 }
 
 .logo-ellipse {
-  width: 240px;
-  height: 240px;
+  min-width: 240px;
+  min-height: 240px;
   flex-shrink: 0;
   background-color: #000;
   border-radius: 50%;
 }
 
 .logo-image {
-  width: 146px;
-  height: 113px;
+  max-width: 146px;
+  max-height: 113px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -458,12 +458,12 @@
 
 .about-column {
   display: flex;
-  width: 885px;
-  padding-top: 101px;
+  max-width: 885px;
+  padding-top: 96px;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
-  gap: 100px;
+  gap: 101px;
   flex-shrink: 0;
 }
 
@@ -492,7 +492,7 @@
 
 .footer {
   display: flex;
-  padding: 90px 50px;
+  padding: 86px 50px;
   align-items: flex-start;
   gap: 356px;
   flex-direction: row;
@@ -500,8 +500,7 @@
 
 .footer-address {
   display: flex;
-  width: 242px;
-  height: 99px;
+  min-width: 242px;
   justify-content: flex-start;
   flex-direction: column;
   align-items: flex-start;
@@ -515,13 +514,13 @@
 }
 
 .footer-address__container {
-  width: 242px;
+  max-width: 242px;
   flex-direction: column;
   align-items: flex-start;
 }
 
 .footer-menu {
-  width: 154px;
+  min-width: 154px;
   display: flex;
   padding-bottom: 0px;
   flex-direction: column;
@@ -557,8 +556,8 @@
 
 .footer__social-list {
   display: flex;
-  width: 240px;
-  height: 109px;
+  min-width: 240px;
+  min-height: 109px;
   padding-bottom: 61px;
   justify-content: center;
   align-items: flex-start;
@@ -566,10 +565,11 @@
 }
 
 .footer__social-icon {
-  width: 48px;
-  height: 48px;
+  min-width: 48px;
+  min-height: 48px;
 }
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
