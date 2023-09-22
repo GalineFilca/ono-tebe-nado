@@ -2,12 +2,22 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
 }
 
 body {
   min-width: 1100px;
-  margin: 0;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
   font-family: Raleway, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: #fff;
+
 }
 
 h1,
