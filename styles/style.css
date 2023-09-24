@@ -434,6 +434,9 @@
   min-width: 430px;
   min-height: 488px;
   padding: 0 95px 247px 95px;
+  min-width: 430px;
+  min-height: 488px;
+  padding: 1px 95px 247px 95px;
   flex-direction: column;
   align-items: center;
   flex-shrink: 0;
@@ -442,12 +445,16 @@
 .logo-ellipse {
   min-width: 240px;
   min-height: 240px;
+  min-width: 240px;
+  min-height: 240px;
   flex-shrink: 0;
   background-color: #000;
   border-radius: 50%;
 }
 
 .logo-image {
+  max-width: 146px;
+  max-height: 113px;
   max-width: 146px;
   max-height: 113px;
   display: inline-flex;
@@ -464,6 +471,12 @@
   justify-content: flex-end;
   align-items: flex-start;
   gap: 101px;
+ max-width: 885px;
+  padding-top: 101px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 100px;
   flex-shrink: 0;
 }
 
@@ -493,6 +506,7 @@
 .footer {
   display: flex;
   padding: 86px 50px;
+  padding: 90px 50px;
   align-items: flex-start;
   gap: 356px;
   flex-direction: row;
@@ -501,6 +515,8 @@
 .footer-address {
   display: flex;
   min-width: 242px;
+  min-width: 240px;
+  height: 99px;
   justify-content: flex-start;
   flex-direction: column;
   align-items: flex-start;
@@ -515,12 +531,14 @@
 
 .footer-address__container {
   max-width: 242px;
+  width: 240px;
   flex-direction: column;
   align-items: flex-start;
 }
 
 .footer-menu {
   min-width: 154px;
+  width: 154px;
   display: flex;
   padding-bottom: 0px;
   flex-direction: column;
@@ -558,6 +576,8 @@
   display: flex;
   min-width: 240px;
   min-height: 109px;
+  width: 240px;
+  height: 109px;
   padding-bottom: 61px;
   justify-content: center;
   align-items: flex-start;
@@ -567,6 +587,9 @@
 .footer__social-icon {
   min-width: 48px;
   min-height: 48px;
+  width: 48px;
+  height: 48px;
+
 }
 
 html {
